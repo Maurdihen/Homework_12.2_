@@ -1,0 +1,52 @@
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Открывал главную страницу
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:14:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:14:51] "GET /static/style.css HTTP/1.1" 200 -
+INFO:root:Выполнял поиск
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:14:56] "GET /search?s=утром HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:14:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открывал главную страницу
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполнял поиск
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:04] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:12] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:24] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:24] "GET /uploads/images/image_2022-12-22_09-55-42.png HTTP/1.1" 200 -
+INFO:root:Открывал главную страницу
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполнял поиск
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:31] "GET /search?s=прив HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:31] "[36mGET /uploads/images/image_2022-12-22_09-55-42.png HTTP/1.1[0m" 304 -
+INFO:root:Открывал главную страницу
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполнял поиск
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:36] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:36] "[36mGET /uploads/images/image_2022-12-22_09-55-42.png HTTP/1.1[0m" 304 -
+INFO:root:Открывал главную страницу
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполнял поиск
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:49] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:49] "[36mGET /uploads/images/image_2022-12-22_09-55-42.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:52] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Ошибка с расширением файла
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 11:15:53] "POST /post HTTP/1.1" 200 -
